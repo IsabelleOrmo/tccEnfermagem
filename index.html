@@ -22,10 +22,20 @@
     align-self: center;
 }
 
-.card-title{
+.icon2{
+    margin-top: 3%;
+    align-self: center;
+}
+
+.card-titulo{
     text-align: center;
-    margin-top: 2%;
-    font-family: 'Poppins', sans-serif;
+}
+
+.card-titulo2{
+    text-align: center;
+    margin-top: 0%;
+    font-size: 0.8em;
+   
 }
 
 .dropbtn {
@@ -51,14 +61,10 @@
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 35%;
+  min-width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-left: 8%;
-}
-
-.card-titulo{
-    text-align: center;
+ 
 }
 
 /* Links inside the dropdown */
@@ -156,9 +162,9 @@
 <div class="row">
 <div class="col-md-4 col-sm-12">
     <div class="card">
-        <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-activity icon" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M6 2a.5.5 0 0 1 .47.33L10 12.036l1.53-4.208A.5.5 0 0 1 12 7.5h3.5a.5.5 0 0 1 0 1h-3.15l-1.88 5.17a.5.5 0 0 1-.94 0L6 3.964 4.47 8.171A.5.5 0 0 1 4 8.5H.5a.5.5 0 0 1 0-1h3.15l1.88-5.17A.5.5 0 0 1 6 2Z"/>
-          </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-bar-chart-line icon" viewBox="0 0 16 16">
+        <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
+      </svg>
           <div class="dropdown">
             <button class="dropbtn"> <span class="card-titulo"> <a href="#" style="text-decoration: none; color:black;">ESCALAS</a> </span> </button>
           </div>
@@ -166,14 +172,105 @@
 </div>
 
 <div class="col-md-4 col-sm-12">
-
+  <div class="card">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-capsule-pill icon" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M11.02 5.364a3 3 0 0 0-4.242-4.243L1.121 6.778a3 3 0 1 0 4.243 4.243l5.657-5.657Zm-6.413-.657 2.878-2.879a2 2 0 1 1 2.829 2.829L7.435 7.536 4.607 4.707ZM12 8a4 4 0 1 1 0 8 4 4 0 0 1 0-8Zm-.5 1.041a3 3 0 0 0 0 5.918V9.04Zm1 5.918a3 3 0 0 0 0-5.918v5.918Z"/>
+    </svg>
+      <div class="dropdown">
+        <button class="dropbtn"> <span class="card-titulo">MEDICAÇÃO</span> </button>
+        <div class="dropdown-content">
+          <a href="#">Tipos de medicação</a>
+          <a href="#">Principais medicações na sala de emergência</a>
+          <a href="#">Vias de medicação</a>
+          <a href="#">Certos da medicação</a>
+        </div>
+      </div>
+  </div>
 </div>
 
 <div class="col-md-4 col-sm-12">
+  <div class="card">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-lungs-fill icon" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v5.243L9 7.1V4.72C9 3.77 9.77 3 10.72 3c.524 0 1.023.27 1.443.592.431.332.847.773 1.216 1.229.736.908 1.347 1.946 1.58 2.48.176.405.393 1.16.556 2.011.165.857.283 1.857.24 2.759-.04.867-.232 1.79-.837 2.33-.67.6-1.622.556-2.741-.004l-1.795-.897A2.5 2.5 0 0 1 9 11.264V8.329l-1-.715-1 .715V7.214c-.1 0-.202.03-.29.093l-2.5 1.786a.5.5 0 1 0 .58.814L7 8.329v2.935A2.5 2.5 0 0 1 5.618 13.5l-1.795.897c-1.12.56-2.07.603-2.741.004-.605-.54-.798-1.463-.838-2.33-.042-.902.076-1.902.24-2.759.164-.852.38-1.606.558-2.012.232-.533.843-1.571 1.579-2.479.37-.456.785-.897 1.216-1.229C4.257 3.27 4.756 3 5.28 3 6.23 3 7 3.77 7 4.72V7.1l.5-.357V1.5A.5.5 0 0 1 8 1Zm3.21 8.907L9 8.329V7.214c.1 0 .202.03.29.093l2.5 1.786a.5.5 0 0 1-.58.814Z"/>
+    </svg>
+        <div class="dropdown">
+          <button class="dropbtn"> <span class="card-titulo"> <a href="#" style="text-decoration: none; color:black;">OXIGENOTERAPIA</a> </span> </button>
+        </div>
+    </div>
+</div>
+</div>
+
+<!--Terceira linha do grid system-->
+<div class="row">
+  <div class="col-md-4 col-sm-12">
+    <div class="card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-list-ul icon" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+      </svg>
+          <div class="dropdown">
+            <button class="dropbtn"> <span class="card-titulo"> <a href="#" style="text-decoration: none; color:black;">TERMOS TÉCNICOS</a> </span> </button>
+          </div>
+      </div>
+  </div>
+
+  <div class="col-md-4 col-sm-12">
+    <div class="card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-hospital icon" viewBox="0 0 16 16">
+        <path d="M8.5 5.034v1.1l.953-.55.5.867L9 7l.953.55-.5.866-.953-.55v1.1h-1v-1.1l-.953.55-.5-.866L7 7l-.953-.55.5-.866.953.55v-1.1h1ZM13.25 9a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5ZM13 11.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5Zm.25 1.75a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5Zm-11-4a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5A.25.25 0 0 0 3 9.75v-.5A.25.25 0 0 0 2.75 9h-.5Zm0 2a.25.25 0 0 0-.25.25v.5c0 .138.112.25.25.25h.5a.25.25 0 0 0 .25-.25v-.5a.25.25 0 0 0-.25-.25h-.5ZM2 13.25a.25.25 0 0 1 .25-.25h.5a.25.25 0 0 1 .25.25v.5a.25.25 0 0 1-.25.25h-.5a.25.25 0 0 1-.25-.25v-.5Z"/>
+        <path d="M5 1a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v1a1 1 0 0 1 1 1v4h3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h3V3a1 1 0 0 1 1-1V1Zm2 14h2v-3H7v3Zm3 0h1V3H5v12h1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3Zm0-14H6v1h4V1Zm2 7v7h3V8h-3Zm-8 7V8H1v7h3Z"/>
+      </svg>
+          <div class="dropdown">
+            <button class="dropbtn"> <span class="card-titulo"> <a href="#" style="text-decoration: none; color:black;">TIPOS DE LEITO HOSPITALAR</a> </span> </button>
+          </div>
+      </div>
+  </div>
+  
+  <div class="col-md-4 col-sm-12">
+    <div class="card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-pencil-square icon2" viewBox="0 0 16 16">
+        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+      </svg>
+          <div class="dropdown">
+            <button class="dropbtn"> <span class="card-titulo2"> <a href="#" style="text-decoration: none; color:black;">TIPOS DE SCALP, JELCO, SERINGAS E AGULHAS 
+            </a> </span> </button>
+          </div>
+      </div>
+  </div>
+  </div>
+
+ <!--Quarta linha do grid system--> 
+<div class="row">
+  <div class="col-md-2"></div>
+  <div class="col-md-4 col-sm-12">
+    <div class="card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-bandaid icon" viewBox="0 0 16 16">
+        <path d="M14.121 1.879a3 3 0 0 0-4.242 0L8.733 3.026l4.261 4.26 1.127-1.165a3 3 0 0 0 0-4.242ZM12.293 8 8.027 3.734 3.738 8.031 8 12.293 12.293 8Zm-5.006 4.994L3.03 8.737 1.879 9.88a3 3 0 0 0 4.241 4.24l.006-.006 1.16-1.121ZM2.679 7.676l6.492-6.504a4 4 0 0 1 5.66 5.653l-1.477 1.529-5.006 5.006-1.523 1.472a4 4 0 0 1-5.653-5.66l.001-.002 1.505-1.492.001-.002Z"/>
+        <path d="M5.56 7.646a.5.5 0 1 1-.706.708.5.5 0 0 1 .707-.708Zm1.415-1.414a.5.5 0 1 1-.707.707.5.5 0 0 1 .707-.707ZM8.39 4.818a.5.5 0 1 1-.708.707.5.5 0 0 1 .707-.707Zm0 5.657a.5.5 0 1 1-.708.707.5.5 0 0 1 .707-.707ZM9.803 9.06a.5.5 0 1 1-.707.708.5.5 0 0 1 .707-.707Zm1.414-1.414a.5.5 0 1 1-.706.708.5.5 0 0 1 .707-.708ZM6.975 9.06a.5.5 0 1 1-.707.708.5.5 0 0 1 .707-.707ZM8.39 7.646a.5.5 0 1 1-.708.708.5.5 0 0 1 .707-.708Zm1.413-1.414a.5.5 0 1 1-.707.707.5.5 0 0 1 .707-.707Z"/>
+      </svg>
+          <div class="dropdown">
+            <button class="dropbtn"> <span class="card-titulo"> <a href="#" style="text-decoration: none; color:black;">X ABCDE DO TRAUMA</a> </span> </button>
+          </div>
+      </div>
+  </div>
+
+
+  <div class="col-md-4 col-sm-12">
+    <div class="card">
+      <svg xmlns="http://www.w3.org/2000/svg" width="30%" fill="#942222" class="bi bi-eyedropper icon" viewBox="0 0 16 16">
+        <path d="M13.354.646a1.207 1.207 0 0 0-1.708 0L8.5 3.793l-.646-.647a.5.5 0 1 0-.708.708L8.293 5l-7.147 7.146A.5.5 0 0 0 1 12.5v1.793l-.854.853a.5.5 0 1 0 .708.707L1.707 15H3.5a.5.5 0 0 0 .354-.146L11 7.707l1.146 1.147a.5.5 0 0 0 .708-.708l-.647-.646 3.147-3.146a1.207 1.207 0 0 0 0-1.708l-2-2zM2 12.707l7-7L10.293 7l-7 7H2v-1.293z"/>
+      </svg>
+          <div class="dropdown">
+            <button class="dropbtn"> <span class="card-titulo"> <a href="#" style="text-decoration: none; color:black;">VACINAÇÃO</a> </span> </button>
+          </div>
+      </div>
+  </div>
+
+  <div class="col-md-2"></div>
 
 </div>
 </div>
-</div>
+
 
 
 
