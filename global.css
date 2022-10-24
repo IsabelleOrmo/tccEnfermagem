@@ -37,7 +37,7 @@
 
 h3{
     font-family: 'Nunito', sans-serif;
-    color: #036564;
+    color: #942222;
 
 }
 
@@ -53,6 +53,28 @@ p{
     color: black;
     text-align: justify;
     text-indent: 2em;
+}
+
+figure{
+    text-align: center;
+}
+
+figcaption{
+    padding: 5px;
+    font-style: italic;
+}
+
+li{
+    padding: 5px;
+    font-size: 1.1em;
+}
+
+@media (min-width: 300px) and (max-width: 780px){
+
+    .titulo{
+        font-size: 1.5em;
+        
+    }
 }
 
 
