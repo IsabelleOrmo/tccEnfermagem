@@ -69,11 +69,15 @@ li{
     font-size: 1.1em;
 }
 
+
 @media (min-width: 300px) and (max-width: 780px){
 
     .titulo{
         font-size: 1.5em;
-        
+    }
+
+    img{
+        width: 70%;
     }
 }
 
