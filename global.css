@@ -69,6 +69,9 @@ li{
     font-size: 1.1em;
 }
 
+#imgMenor{
+    width: 60%;
+}
 
 @media (min-width: 300px) and (max-width: 780px){
 
