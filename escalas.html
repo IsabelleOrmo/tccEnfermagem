@@ -1,393 +1,412 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./global.css">
     <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <title>Escalas</title>
 
-<style>
-    
-    th, tr, td {
-    border-bottom: 1px solid #ddd;
-    padding: 15px;
-    }
+    <style>
+        th,
+        tr,
+        td {
+            border-bottom: 1px solid #ddd;
+            padding: 15px;
+        }
 
-    td {
-        border-left: 1px solid #ddd;
-    }
+        td {
+            border-left: 1px solid #ddd;
+        }
 
-    li{
-        font-size: 1.0em;
-        padding: 1px;
-    }
+        li {
+            font-size: 1.0em;
+            padding: 1px;
+        }
 
-    .lista{
-        font-size: 1.1em;    
-    }
+        .lista {
+            font-size: 1.1em;
+        }
 
-    .Rass{
-        border: 1px solid #ddd;
-    }
+        .Rass {
+            border: 1px solid #ddd;
+        }
 
-    #ASA{
-        border-left: none;
-    }
+        #ASA {
+            border-left: none;
+        }
 
-@media (min-width: 300px) and (max-width: 780px){
-    th, tr, td{
-        padding: 1px;
-        font-size: 0.8em;
-    }
+        @media (min-width: 300px) and (max-width: 780px) {
 
-}
+            th,
+            tr,
+            td {
+                padding: 1px;
+                font-size: 0.8em;
+            }
 
-</style>
+        }
+    </style>
 </head>
+
 <body>
-<!--NavdoSite-->
+    <!--NavdoSite-->
     <div class="fluid-container navbarContainer">
         <a class="navbar-brand" href="./index.html">
-          <svg xmlns="http://www.w3.org/2000/svg" width="4rem" fill="#942222" class="bi bi-house-heart" viewBox="0 0 16 16">
-              <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
-              <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+            <svg xmlns="http://www.w3.org/2000/svg" width="4rem" fill="#942222" class="bi bi-house-heart"
+                viewBox="0 0 16 16">
+                <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z" />
+                <path
+                    d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z" />
             </svg>
         </a>
-      </div>
-<!--NavdoSite-->
-<!--Titulo-->
-<div class="fluid-container pageContainer">
-<div class="titulo"> <br> ESCALAS <br> <br></div>
-</div>
-<!--Titulo-->
-<!--Page content-->
-<div class="mainContainer">
-<h3>Escala de Manchester</h3>
-<p>Essa escala é  uma ferramenta de triagem clínica, para definir a prioridade no atendimento a pacientes. <i>(SAÚDE, 2022)</i></p>
-<br>
-<table >
-    <tr>
-        <th>Não Urgente</th>
-        <td>Caso de menor complexidade e sem problemas recentes. Acompanhamento em até 240 minutos.</td>
-    </tr>
-    <tr>
-    <th>Pouco Urgente</th>
-    <td>Não necessita de cuidados imediatos, é o caso menos grave. Atendimento em até 120 minutos.</td>
-    </tr>
-
-    <tr>
-        <th>Urgente</th>
-        <td>Precisa de avaliação, mas não é considerado caso emergencial. Deverá possuir condições clínicas para aguardar atendimento. Atendimento em até 60 minutos.</td>
-    </tr>
-
-    <tr>
-        <th>Muito Urgente</th>
-        <td>Necessita de atendimento o quanto antes. Atendimento em até 10 minutos.</td>
-    </tr>
-
-    <tr>
-        <th>Emergência</th>
-        <td>Necessita de atendimento imediato, não podendo aguardar.</td>
-    </tr>
-</table>
-<br>
-<br>
-<h3>Escala de Coma de Glasgow </h3>
-<p>Aqui o objetivo é avaliar o nível de consciência do paciente. <i>(SAÚDE, 2022)</i> </p>
-
-<table>
-    <tr>
-        <th>Abertura dos olhos</th>
-        <td>
-            <ul style="list-style-type: none;">
-            <li>
-            <b>Espontânea:</b> 4 pontos
-            </li>
-            <li><b>Ao comando verbal:</b>3 pontos</li>
-            <li><b>Pressão na altura dos olhos:</b> 2 pontos</li>
-            <li><b>Nenhuma: </b>1 ponto</li>
-            </ul>
-        </td>
-    </tr>
-
-    <tr>
-        <th>Resposta verbal</th>
-        <td>
-            <ul style="list-style-type: none;">
-                <li><b>Orientado e conversando:</b> 5 pontos</li>
-                <li><b>Desorientado, confuso:</b> 4 pontos</li>
-                <li><b>Palavras:</b> 3 pontos</li>
-                <li><b>Incompreensível/sons: </b> 2 pontos</li>
-                <li><b>Nenhuma: </b>1 ponto</li>
-            </ul>
-        </td>
-    </tr>
-
-    <tr>
-        <th>Resposta motora:</th>
-        <td>
-            <ul style="list-style-type: none;">
-            <li><b>Obedece comandos: </b>6 pontos</li>
-            <li><b>Localiza dor: </b>5 pontos</li>
-            <li><b>Flexão normal:  </b>4 pontos</li>
-            <li><b>Flexão anormal: </b>3 pontos</li>
-            <li><b>Extensão: </b>2 pontos</li>
-            <li><b>Ausente: </b>1 ponto</li>
-            </ul>
-        </td>
-    </tr>
-</table>
-<br>
-<p> <b>Importante:</b>  após a aplicação dessa escola, recomenda-se proceder com a avaliação pupilar, subtraindo o resultado das avaliação pupilar na pontuação dos parâmetros anteriores: <i>(SAÚDE, 2022)</i> 
-</p>
-<ul class="lista">
-<li> <b>Inexistente:</b>  nenhuma pupila reage ao estímulo de luz (-2)</li>
-<li> <b>Parcial:</b>  apenas uma pupila reage ao estímulo de luz (-1)</li>
-<li> <b>Completa: </b> as duas pupilas reagem ao estímulo de luz (0)</li>
-</ul>
-<br>
-<br>
-<h3>Escala de Apgar </h3>
-
-<p>Também chamado de escore de Apgar ou índice de Apgar, essa escala é um dos métodos mais utilizados para a avaliação imediata do recém-nascido (RN), principalmente, no primeiro e no quinto minutos de vida. <i>(SAÚDE, 2022)</i> 
-</p>
-<table>
-<tr>
-    
-    <th>(A)parência</th>
-    <td>
-        <ul style="list-style-type: none;">
-            <li>2: completamente rosado</li>
-            <li>1: rosado com extremidades azuis</li>
-            <li>0: pálido, azulado</li>
-        </ul>
-    </td>
-</tr>
-
-<tr>
-<th>(P)ulso</th>
-<td>
-    <ul style="list-style-type: none;">
-        <li>2: > 100 bpm</li>
-        <li>1: < 100 bpm</li>
-        <li>0: sem pulso</li>
-    </ul>
-</td>
-</tr>
-
-<tr>
-    <th>(G)esticulação/irritabilidade</th>
-    <td>
-        <ul style="list-style-type: none;">
-            <li>2: choro, espirro ou tosse:</li>
-            <li>1: faz caretas</li>
-            <li>0: sem resposta</li>
-        </ul>
-    </td>
-</tr>
-
-<tr>
-    <th>(A)tividade muscular </th>
-    <td>
-        <ul style="list-style-type: none;">
-            <li>2: movimento ativo</li>
-            <li>1: poucas flexões nas extremidades </li>
-            <li>0: flácido</li>
-        </ul>
-    </td>
-</tr>
-
-<tr>
-    <th>(R)espiração: </th>
-    <td>
-        <ul style="list-style-type: none;">
-            <li>2: boa, com choro</li>
-            <li>1: lenta</li>
-            <li>0: ausente</li>
-        </ul>
-    </td>
-</tr>
-</table>
-
-<br>
-
-<p>Uma vez feito esse levantamento, é preciso fazer a classificação. Quanto menor a contagem, mais grave é o caso: <i>(SAÚDE, 2022)</i> 
-</p>
-
-<ul class="lista">
-<li> <b>Sem asfixia:</b>  apgar 8 a 10</li>
-<li> <b>Com asfixia: </b>apgar 5 a 7 </li>
-<li> <b>Com asfixia moderada: </b> apgar 3 a 4</li>
-<li> <b>Com asfixia grave: </b>0 a 2 </li>
-</ul>
-
-<br>
-<br>
-<h3>Escala de Rass</h3>
-<p>Tem o objetivo de avaliar o nível de sedação do paciente. <i>(SAÚDE, 2022)</i> </p>
-
-<div class="row">
-<div class="col-md-2 col-sm-12"></div>
-<div class="col-md-4 col-sm-12">
-    <table class="Rass">
-        <tr>
-            <td>Combativo</td>
-            <td>+ 4</td>
-        </tr>
-    
-        <tr>
-            <td>Muito agitado</td>
-            <td>+ 3</td>
-        </tr>
-    
-        <tr>
-            <td>Agitado</td>
-            <td>+ 2</td>
-        </tr>
-    
-        <tr>
-            <td>Inquieto</td>
-            <td>+ 1</td>
-        </tr>
-    
-        <tr>
-            <td>Alerta e calmo</td>
-            <td>0</td>
-        </tr>
-</table>
-</div>
-
-<div class="col-md-4 col-sm-12">
-<table class="Rass">
-    <tr>
-        <td>Sonolento</td>
-        <td>- 1</td>
-    </tr>
-
-    <tr>
-        <td>Sedação leve</td>
-        <td>- 2</td>
-    </tr>
-
-    <tr>
-        <td>Sedação moderada</td>
-        <td>- 3</td>
-    </tr>
-
-    <tr>
-        <td>Sedação intensa</td>
-        <td>- 4</td>
-    </tr>
-
-    <tr>
-        <td>Não desperta</td>
-        <td>- 5</td>
-    </tr>
-</table>
-</div>
-<div class="col-md-2 col-sm-12"></div>
-</div>
-<br> <br>
-<h3>Escala de ASA</h3>
-<p>ASA é a sigla para American Society of Anesthesiology (em português: Sociedade Americana de Anestesiologia). A Escala ASA é fundamental para mensurar o risco cirúrgico. <i>(SAÚDE, 2022)</i> 
-</p>
-
-<table>
-<tr>
-    <td id="ASA"></td>
-    <td>1</td>
-    <td>2</td>
-    <td>3</td>
-    <td>4</td>
-</tr>
-
-<tr>
-    <th>Percepção sensorial</th>
-    <td>Totalmente limitado</td>
-    <td>Muito limitado</td>
-    <td>Pouco limitado</td>
-    <td>Nenhuma limitação</td>
-</tr>
-
-<tr>
-    <th>Umidade</th>
-    <td>Completamente molhado</td>
-    <td>Muito molhado</td>
-    <td>Ocasionalmente molhado</td>
-    <td>Raramente molhado</td>
-</tr>
-
-<tr>
-    <th>Atividade</th>
-    <td>Acamado</td>
-    <td>Confinado à cadeira</td>
-    <td>Caminha ocasionalmente</td>
-    <td>Caminha frequentemente</td>
-</tr>
-
-<tr>
-    <th>Mobilidade</th>
-    <td>Totalmente imóvel</td>
-    <td>Muito limitado</td>
-    <td>Pouco limitado</td>
-    <td>Sem limitações</td>
-</tr>
-
-<tr>
-    <th>Nutrição</th>
-    <td>Muito pobre</td>
-    <td>Inadequada</td>
-    <td>Adequada</td>
-    <td>Excelente</td>
-</tr>
-
-<tr>
-    <th>Fricção e cisalhamento</th>
-    <td>Problema</td>
-    <td>Problema potencial</td>
-    <td>Sem problema</td>
-    <td>----</td>
-</tr>
-</table>
-</div>
-
-<footer class="fluid-container p-4">
-    <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-md-4 col-sm-12">
-            <span class="footer-title">GUIA DE BOLSO DO ESTAGIÁRIO DE ENFERMAGEM – “TÁ NO BOLSO”</span>
-        <br><br>
-            <figure>
-            <img src="./favicon/android-chrome-192x192.png" alt="">
-        </figure>
-        </div>
-        <div class="col-md-3 col-sm-12">
-            <div class="footer-list">
-                <div class="footer-subtitle"></div>
-                <ul>
-                    <li>Eloísa Moura dos Santos</li>
-                    <li>Kamilly Gabrieli Ferreira de Souza</li>
-                    <li>Keila Gabrielly de Araújo Mendes</li>
-                    <li>Letícia Amanda Borel</li>
-                    <li>Susana Beatriz Silva de Aguilar</li>
-                    <li>Thawany Carolina Rodrigues dos Santos</li>
-                </ul>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-12 footer-obj">
-            <div class="footer-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
-                <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
-              </svg>
-            </div>
-            <br>
-              Elaborar um guia de bolso de enfermagem, que auxiliará o estudante e trará mais confiança no momento da realização da técnica, evitando erros básicos no atendimento em saúde que podem levar a intercorrências e, possivelmente, expondo o paciente a riscos fatais. 
-        </div>
-        <div class="col-md-1"></div>
     </div>
-</footer>
+    <!--NavdoSite-->
+    <!--Titulo-->
+    <div class="fluid-container pageContainer">
+        <div class="titulo"> <br> ESCALAS <br> <br></div>
+    </div>
+    <!--Titulo-->
+    <!--Page content-->
+    <div class="mainContainer">
+        <h3>Escala de Manchester</h3>
+        <p>Essa escala é uma ferramenta de triagem clínica, para definir a prioridade no atendimento a pacientes.
+            <i>(SAÚDE, 2022)</i></p>
+        <br>
+        <table>
+            <tr>
+                <th>Não Urgente</th>
+                <td>Caso de menor complexidade e sem problemas recentes. Acompanhamento em até 240 minutos.</td>
+            </tr>
+            <tr>
+                <th>Pouco Urgente</th>
+                <td>Não necessita de cuidados imediatos, é o caso menos grave. Atendimento em até 120 minutos.</td>
+            </tr>
+
+            <tr>
+                <th>Urgente</th>
+                <td>Precisa de avaliação, mas não é considerado caso emergencial. Deverá possuir condições clínicas para
+                    aguardar atendimento. Atendimento em até 60 minutos.</td>
+            </tr>
+
+            <tr>
+                <th>Muito Urgente</th>
+                <td>Necessita de atendimento o quanto antes. Atendimento em até 10 minutos.</td>
+            </tr>
+
+            <tr>
+                <th>Emergência</th>
+                <td>Necessita de atendimento imediato, não podendo aguardar.</td>
+            </tr>
+        </table>
+        <br>
+        <br>
+        <h3>Escala de Coma de Glasgow </h3>
+        <p>Aqui o objetivo é avaliar o nível de consciência do paciente. <i>(SAÚDE, 2022)</i> </p>
+
+        <table>
+            <tr>
+                <th>Abertura dos olhos</th>
+                <td>
+                    <ul style="list-style-type: none;">
+                        <li>
+                            <b>Espontânea:</b> 4 pontos
+                        </li>
+                        <li><b>Ao comando verbal:</b>3 pontos</li>
+                        <li><b>Pressão na altura dos olhos:</b> 2 pontos</li>
+                        <li><b>Nenhuma: </b>1 ponto</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Resposta verbal</th>
+                <td>
+                    <ul style="list-style-type: none;">
+                        <li><b>Orientado e conversando:</b> 5 pontos</li>
+                        <li><b>Desorientado, confuso:</b> 4 pontos</li>
+                        <li><b>Palavras:</b> 3 pontos</li>
+                        <li><b>Incompreensível/sons: </b> 2 pontos</li>
+                        <li><b>Nenhuma: </b>1 ponto</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Resposta motora:</th>
+                <td>
+                    <ul style="list-style-type: none;">
+                        <li><b>Obedece comandos: </b>6 pontos</li>
+                        <li><b>Localiza dor: </b>5 pontos</li>
+                        <li><b>Flexão normal: </b>4 pontos</li>
+                        <li><b>Flexão anormal: </b>3 pontos</li>
+                        <li><b>Extensão: </b>2 pontos</li>
+                        <li><b>Ausente: </b>1 ponto</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <p> <b>Importante:</b> após a aplicação dessa escola, recomenda-se proceder com a avaliação pupilar, subtraindo
+            o resultado das avaliação pupilar na pontuação dos parâmetros anteriores: <i>(SAÚDE, 2022)</i>
+        </p>
+        <ul class="lista">
+            <li> <b>Inexistente:</b> nenhuma pupila reage ao estímulo de luz (-2)</li>
+            <li> <b>Parcial:</b> apenas uma pupila reage ao estímulo de luz (-1)</li>
+            <li> <b>Completa: </b> as duas pupilas reagem ao estímulo de luz (0)</li>
+        </ul>
+        <br>
+        <br>
+        <h3>Escala de Apgar </h3>
+
+        <p>Também chamado de escore de Apgar ou índice de Apgar, essa escala é um dos métodos mais utilizados para a
+            avaliação imediata do recém-nascido (RN), principalmente, no primeiro e no quinto minutos de vida.
+            <i>(SAÚDE, 2022)</i>
+        </p>
+        <table>
+            <tr>
+
+                <th>(A)parência</th>
+                <td>
+                    <ul style="list-style-type: none;">
+                        <li>2: completamente rosado</li>
+                        <li>1: rosado com extremidades azuis</li>
+                        <li>0: pálido, azulado</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <th>(P)ulso</th>
+                <td>
+                    <ul style="list-style-type: none;">
+                        <li>2: > 100 bpm</li>
+                        <li>1: < 100 bpm</li>
+                        <li>0: sem pulso</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <th>(G)esticulação/irritabilidade</th>
+                <td>
+                    <ul style="list-style-type: none;">
+                        <li>2: choro, espirro ou tosse:</li>
+                        <li>1: faz caretas</li>
+                        <li>0: sem resposta</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <th>(A)tividade muscular </th>
+                <td>
+                    <ul style="list-style-type: none;">
+                        <li>2: movimento ativo</li>
+                        <li>1: poucas flexões nas extremidades </li>
+                        <li>0: flácido</li>
+                    </ul>
+                </td>
+            </tr>
+
+            <tr>
+                <th>(R)espiração: </th>
+                <td>
+                    <ul style="list-style-type: none;">
+                        <li>2: boa, com choro</li>
+                        <li>1: lenta</li>
+                        <li>0: ausente</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+        <br>
+
+        <p>Uma vez feito esse levantamento, é preciso fazer a classificação. Quanto menor a contagem, mais grave é o
+            caso: <i>(SAÚDE, 2022)</i>
+        </p>
+
+        <ul class="lista">
+            <li> <b>Sem asfixia:</b> apgar 8 a 10</li>
+            <li> <b>Com asfixia: </b>apgar 5 a 7 </li>
+            <li> <b>Com asfixia moderada: </b> apgar 3 a 4</li>
+            <li> <b>Com asfixia grave: </b>0 a 2 </li>
+        </ul>
+
+        <br>
+        <br>
+        <h3>Escala de Rass</h3>
+        <p>Tem o objetivo de avaliar o nível de sedação do paciente. <i>(SAÚDE, 2022)</i> </p>
+
+        <div class="" style="display: flex; flex-wrap: wrap; gap: 2rem;">
+            <div class="">
+                <table class="Rass">
+                    <tr>
+                        <td>Combativo</td>
+                        <td>+ 4</td>
+                    </tr>
+
+                    <tr>
+                        <td>Muito agitado</td>
+                        <td>+ 3</td>
+                    </tr>
+
+                    <tr>
+                        <td>Agitado</td>
+                        <td>+ 2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Inquieto</td>
+                        <td>+ 1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Alerta e calmo</td>
+                        <td>0</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="">
+                <table class="Rass">
+                    <tr>
+                        <td>Sonolento</td>
+                        <td>- 1</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sedação leve</td>
+                        <td>- 2</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sedação moderada</td>
+                        <td>- 3</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sedação intensa</td>
+                        <td>- 4</td>
+                    </tr>
+
+                    <tr>
+                        <td>Não desperta</td>
+                        <td>- 5</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <br> <br>
+        <h3>Escala de ASA</h3>
+        <p>ASA é a sigla para American Society of Anesthesiology (em português: Sociedade Americana de Anestesiologia).
+            A Escala ASA é fundamental para mensurar o risco cirúrgico. <i>(SAÚDE, 2022)</i>
+        </p>
+        <div style="overflow-x:auto;"> 
+        <table>
+            <tr>
+                <td id="ASA"></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+
+            <tr>
+                <th>Percepção sensorial</th>
+                <td>Totalmente limitado</td>
+                <td>Muito limitado</td>
+                <td>Pouco limitado</td>
+                <td>Nenhuma limitação</td>
+            </tr>
+
+            <tr>
+                <th>Umidade</th>
+                <td>Completamente molhado</td>
+                <td>Muito molhado</td>
+                <td>Ocasionalmente molhado</td>
+                <td>Raramente molhado</td>
+            </tr>
+
+            <tr>
+                <th>Atividade</th>
+                <td>Acamado</td>
+                <td>Confinado à cadeira</td>
+                <td>Caminha ocasionalmente</td>
+                <td>Caminha frequentemente</td>
+            </tr>
+
+            <tr>
+                <th>Mobilidade</th>
+                <td>Totalmente imóvel</td>
+                <td>Muito limitado</td>
+                <td>Pouco limitado</td>
+                <td>Sem limitações</td>
+            </tr>
+
+            <tr>
+                <th>Nutrição</th>
+                <td>Muito pobre</td>
+                <td>Inadequada</td>
+                <td>Adequada</td>
+                <td>Excelente</td>
+            </tr>
+
+            <tr>
+                <th>Fricção e cisalhamento</th>
+                <td>Problema</td>
+                <td>Problema potencial</td>
+                <td>Sem problema</td>
+                <td>----</td>
+            </tr>
+        </table>
+    </div>
+    </div>
+<br><br><br>
+    <footer class="fluid-container p-4">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4 col-sm-12">
+                <span class="footer-title">GUIA DE BOLSO DO ESTAGIÁRIO DE ENFERMAGEM – “TÁ NO BOLSO”</span>
+                <br><br>
+                <figure>
+                    <img src="./favicon/android-chrome-192x192.png" alt="">
+                </figure>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="footer-list">
+                    <div class="footer-subtitle"></div>
+                    <ul>
+                        <li>Eloísa Moura dos Santos</li>
+                        <li>Kamilly Gabrieli Ferreira de Souza</li>
+                        <li>Keila Gabrielly de Araújo Mendes</li>
+                        <li>Letícia Amanda Borel</li>
+                        <li>Susana Beatriz Silva de Aguilar</li>
+                        <li>Thawany Carolina Rodrigues dos Santos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 footer-obj">
+                <div class="footer-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="3rem" fill="currentColor"
+                        class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                    </svg>
+                </div>
+                <br>
+                Elaborar um guia de bolso de enfermagem, que auxiliará o estudante e trará mais confiança no momento da
+                realização da técnica, evitando erros básicos no atendimento em saúde que podem levar a intercorrências
+                e, possivelmente, expondo o paciente a riscos fatais.
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </footer>
 </body>
+
 </html>
