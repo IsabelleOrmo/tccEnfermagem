@@ -45,11 +45,11 @@ padding-bottom: 2px;
     border-bottom: 1px solid black;
 }
 
-h3{
+h3, h4, h5{
     font-family: 'Nunito', sans-serif;
     color: #942222;
-
 }
+
 
 .mainContainer{
     margin-top: 3%;
