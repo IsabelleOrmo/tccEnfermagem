@@ -12,6 +12,10 @@
     margin-left: 3%;
 }
 
+.tabela{
+    overflow-x: auto;
+}
+
 .navContainer{
 border-bottom: 1px solid black;
 margin-top: 1%;
@@ -140,6 +144,14 @@ footer {
 
     :root {
         width: calc(100vw - padding - margin);
+    }
+    
+    ul, li{
+        font-size: 0.8em;
+    }
+
+    table, tr, th, td{
+        font-size: 1.0em;
     }
 
 }
