@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./global.css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Tipos de medicação</title>
+
+<style>
+    
+    th, tr,td{
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+
+@media (min-width: 300px) and (max-width: 780px){
+    th, tr, td{
+        padding: 1px;
+        font-size: 0.8em;
+    }
+}
+
+</style>
+
+</head>
+<body>
+<!--NavdoSite-->
+    <div class="fluid-container navbarContainer">
+        <a class="navbar-brand" href="./index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="4rem" fill="#942222" class="bi bi-house-heart" viewBox="0 0 16 16">
+              <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
+              <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+            </svg>
+        </a>
+      </div>
+<!--NavdoSite-->
+<!--Titulo-->
+<div class="fluid-container pageContainer">
+<div class="titulo"> <br>  TIPOS DE MEDICAÇÃO  <br> <br></div>
+</div>
+<!--Titulo-->
+<!--Content-->
+<main class="mainContainer">
+<h3>Introdução </h3>
+<p>
+    Os medicamentos possuem sua origem de fontes naturais ou origem sintética (industrializados). Através da indústria é possível fazer a manipulação na estrutura molecular da substância química da medicação, causando algumas modificações em sua estrutura química. A droga pode ter diversos efeitos e recomendações, agindo em partes específicas do corpo humano. <i>(FLORENCE, 2018)</i> 
+</p>
+<br>
+
+<div class="tabela" id="customers">
+<table>
+    <tr>
+        <th>Medicação</th>
+        <th>Ação</th>
+        <th>Exemplo</th>
+    </tr>
+
+    <tr>
+        <th>Analgésicos não opioides</th>
+        <td>usadas para diminuir a dor que age no nível periférico</td>
+        <td>dipirona, paracetamol</td>
+    </tr>
+    
+    <tr>
+        <th>Analgésicos opioides</th>
+        <td>ação de inibir a dor que age no sistema nervoso central</td>
+        <td>morfina, metadona</td>
+    </tr>
+    
+    <tr>
+        <th>Ansiolíticos</th>
+        <td>diminuem a ansiedade</td>
+        <td>Alprazolan, valium</td>
+    </tr>
+    
+    <tr>
+        <th>Antiácidos</th>
+        <td>causam a neutralização do ácido gástrico</td>
+        <td>antak, sonrisal</td>
+    </tr>
+    
+    <tr>
+        <th>Antiagregante plaquetário</th>
+        <td>causam alteração na coagulação do sangue</td>
+        <td>clopidogrel, persantin</td>
+    </tr>
+    
+    <tr>
+        <th>Antibióticos</th>
+        <td>causando a inibição e matando os micro-organismos</td>
+        <td>azitromicina, penicilina</td>
+    </tr>
+        
+    <tr>
+        <th>Anticoagulantes</th>
+        <td>aumentam o tempo de coagulação sanguínea</td>
+        <td>heparina, varfarina</td>
+    </tr>
+        
+    <tr>
+        <th>Anticonvulsivantes</th>
+        <td>usados para controlar convulsões</td>
+        <td>gardenal, fenobarbital</td>
+    </tr>
+        
+    <tr>
+        <th>Antidepressivos</th>
+        <td>melhoram os sintomas da depressão</td>
+        <td>
+            fluoxetina, sertralina
+            
+            </td>
+    </tr>
+        
+    <tr>
+        <th>Antidiarreicos</th>
+        <td>controle e alívio da diarreia</td>
+        <td>imosec, floratil</td>
+    </tr>
+            
+    <tr>
+        <th>Antieméticos</th>
+        <td>usados para prevenir, controlar e aliviar o vômito</td>
+        <td>plasil, dramin</td>
+    </tr>
+            
+    <tr>
+        <th>Anti-hipertensivo</th>
+        <td>
+            reduzem a pressão arterial
+            
+            </td>
+        <td>captopril, atensina</td>
+    </tr>
+            
+    <tr>
+        <th>Anti-histamínicos</th>
+        <td>inibe a histamina  um aminoácido que causam as reações alérgicas</td>
+        <td>loperamida, allegra</td>
+    </tr>
+                
+    <tr>
+        <th>Anti-inflamatórios não esteroidais</th>
+        <td>diminui o processo de inflamações</td>
+        <td>ibuprofeno, nimesulida</td>
+    </tr>
+                
+    <tr>
+        <th>Antilipêmicos</th>
+        <td>auxiliam na redução dos níveis de colesterol no sangue</td>
+        <td>sinvastatina, atorvastatina</td>
+    </tr>
+                
+    <tr>
+        <th>Antimicóticos</th>
+        <td>combatem infecções causadas por fungos</td>
+        <td>fluconazol, amicozol</td>
+    </tr>
+                    
+    <tr>
+        <th>Antiparasitários</th>
+        <td>combatem ou controlam doenças parasitárias ou verminoses</td>
+        <td>metronidazol, albendazol</td>
+    </tr>
+                    
+    <tr>
+        <th>Antiparkinsoniano</th>
+        <td>controle dos sintomas da doença de Parkinson</td>
+        <td>biperideno, prolopa</td>
+    </tr>
+                    
+    <tr>
+        <th>Antissecretores gástricos</th>
+        <td>
+            causam a inibição de secreção gástrica de forma indireta
+            
+            </td>
+        <td>omeprazol, pantoprazol</td>
+    </tr>
+                    
+    <tr>
+        <th>Antivirais</th>
+        <td>combatem ou controlam doenças virais</td>
+        <td>aciclovir, zovirax</td>
+    </tr>
+                    
+    <tr>
+        <th>Beta-bloqueadores</th>
+        <td>capacidade de bloquear os receptores beta da noradrenalina</td>
+        <td>propranolol, atenolol</td>
+    </tr>
+                    
+    <tr>
+        <th>Broncodilatadores</th>
+        <td>causam a dilatação dos brônquios, causando melhor troca gasosa</td>
+        <td>Berotec, aerolin</td>
+    </tr>
+                    
+    <tr>
+        <th>Cardiotônicos</th>
+        <td>aumentam a contratibilidade do músculo cardíaco</td>
+        <td>digoxina, acetildigoxina</td>
+    </tr>
+                    
+    <tr>
+        <th>Coagulante</th>
+        <td>aceleram o processo de coagulação</td>
+        <td>vitamina K, transamin</td>
+    </tr>
+                    
+    <tr>
+        <th>Depressores do sistema nervoso central</th>
+        <td>causam depressão do sistema nervoso central</td>
+        <td>diazepan, valium</td>
+    </tr>
+                    
+    <tr>
+        <th>Diuréticos</th>
+        <td>aumentar a excreção de água e eletrólitos pelos rins</td>
+        <td>hidrocloratiazida, furosemida</td>
+    </tr>
+                    
+    <tr>
+        <th>Expectorantes</th>
+        <td>usadas no alívio da tosse</td>
+        <td>fluimucil, bromelin</td>
+    </tr>
+                    
+    <tr>
+        <th>Hipoglicemiantes</th>
+        <td>controle e regulação da glicemia</td>
+        <td>metformina, insulina</td>
+    </tr>
+                    
+    <tr>
+        <th>Laxantes</th>
+        <td>auxiliam no alívio da constipação</td>
+        <td>óleo mineral, lactulona</td>
+    </tr>
+                    
+    <tr>
+        <th>Sedativos</th>
+        <td>usados para sedar e hipnotizar</td>
+        <td>midazolam, propofol</td>
+    </tr>
+                    
+    <tr>
+        <th>Sulfonamidas</th>
+        <td>“sulfa”, age no controle de infecções, prejudicando o crescimento de bactérias</td>
+        <td>sulfadiazina, cotrimoxaxo</td>
+    </tr>
+                    
+    <tr>
+        <th>Tranquilizantes</th>
+        <td>usados para acalmar e tranquiliza</td>
+        <td>haldol, apresolina</td>
+    </tr>
+                        
+    <tr>
+        <th>Vasoconstritores</th>
+        <td>atuam na contração dos vasos sanguíneos</td>
+        <td>norepinefrina, epinefrina</td>
+    </tr>
+                        
+    <tr>
+        <th>Vasodilatadores</th>
+        <td>produzem a dilatação dos vasos sanguíneo</td>
+        <td>nifedipina, monocordil</td>
+    </tr>
+                        
+</table>
+</div>
+
+<br><br>
+</main>
+
+<footer class="fluid-container p-4">
+    <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-4 col-sm-12">
+            <span class="footer-title">GUIA DE BOLSO DO ESTAGIÁRIO DE ENFERMAGEM – “TÁ NO BOLSO”</span>
+        <br><br>
+            <figure>
+            <img src="./favicon/android-chrome-192x192.png" alt="">
+        </figure>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <div class="footer-list">
+                <div class="footer-subtitle"></div>
+                <ul>
+                    <li>Eloísa Moura dos Santos</li>
+                    <li>Kamilly Gabrieli Ferreira de Souza</li>
+                    <li>Keila Gabrielly de Araújo Mendes</li>
+                    <li>Letícia Amanda Borel</li>
+                    <li>Susana Beatriz Silva de Aguilar</li>
+                    <li>Thawany Carolina Rodrigues dos Santos</li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-12 footer-obj">
+            <div class="footer-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="3rem" fill="currentColor" class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                <path d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z"/>
+              </svg>
+            </div>
+            <br>
+              Elaborar um guia de bolso de enfermagem, que auxiliará o estudante e trará mais confiança no momento da realização da técnica, evitando erros básicos no atendimento em saúde que podem levar a intercorrências e, possivelmente, expondo o paciente a riscos fatais. 
+        </div>
+        <div class="col-md-1"></div>
+    </div>
+</footer>
+
+</body>
+</html>
