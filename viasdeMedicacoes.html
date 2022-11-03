@@ -10,14 +10,21 @@
     <title>Vias de medicação</title>
 
 <style>
-    
-    th, tr,td{
+    li{
+        font-size: 0.9em;
+    }
+
+    th, tr,td {
     border-bottom: 1px solid #ddd;
     padding: 15px;
     border-left: 1px solid #ddd;
 }
 
-@media (min-width: 300px) and (max-width: 780px){
+
+
+    
+
+@media screen and (max-width: 780px){
     th, tr, td{
         padding: 1px;
         font-size: 0.8em;
@@ -38,14 +45,99 @@
         </a>
       </div>
 <!--NavdoSite-->
+
+
+
 <!--Titulo-->
 <div class="fluid-container pageContainer">
 <div class="titulo"> <br>  VIAS DE MEDICAÇÃO  <br> <br></div>
 </div>
 <!--Titulo-->
+
+<br><br>
+<!--Sumario da pagina-->
+
+
+<div class="fluid-container myaccordion" style="background-color: #ddd;">
+    <div class="accordion  accordion-flush" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Sumário   
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+                <p>
+                    <a href="#intro" class="sumarioID">1. Introdução</a> 
+                 </p>
+                 
+                 <p>
+                     <a href="#viaOral" class="sumarioID">2. Via Oral</a>
+                 </p>
+                 
+                 <p>
+                     <a href="#viaSublingual" class="sumarioID">3. Via Sublingual</a>
+                 </p>
+                 
+                 <p>
+                     <a href="#viaGástrica" class="sumarioID">4. Via Gástrica</a>
+                 </p>
+                 
+                 <p>
+                     <a href="#viaRetal" class="sumarioID">5. Via Retal</a>
+                 </p>
+                 
+                     <p>
+                         <a href="#viaCutânea" class="sumarioID">6. Via tópica ou cutânea</a>
+                     </p>
+                     
+                 <p>
+                     <a href="#viaNasal" class="sumarioID">7. Via Nasal</a>
+                 </p>
+                 
+                 <p>
+                     <a href="#viaOcular" class="sumarioID">8. Via Ocular</a>
+                 </p>
+                 
+                 <p>
+                     <a href="#viaAuricular" class="sumarioID">9. Via Auricular</a>
+                 </p>
+                 
+                 <p>
+                     <a href="#viaVaginal" class="sumarioID">10. Via Vaginal</a>
+                 </p>
+                 
+              
+                 <p>
+                     <a href="#viasParentais">11. Via Parental</a>
+                     <ul style="list-style-type: none;">
+                         <li>  <a href="#viaID">I. Via Intradérmica</a></li>
+                         <li><a href="#viaSC">II. Via Subcutânea </a></li>
+                         <li> <a href="#viaIM">III. Via Intramuscular </a>
+                         </li>
+                         <li> <a href="#viaEV">IV. Via Endovenosa (EV) </a>
+                             </li>
+                     </ul>
+                 </p>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+    
+
+<!--Sumario-->
+
 <!--Content-->
 <main>
 <div class="mainContainer">
+
+
+
+
+    <br>
+    <a id="intro"></a>
 <h3>Introdução</h3>
 <p>Para que um medicamento possa atuar e produzir seus efeitos sistêmicos característicos, ele deve ser absorvido, e assim, atingir uma concentração eficiente no seu local de ação. A absorção é definida como a passagem do medicamento do seu local de administração para a corrente sanguínea <i>(ADAMS, 2003).</i> 
 </p>
@@ -53,8 +145,9 @@
 <br>
 </div>
 
-<div class="fluid-container" style="background-color: #d1cbc0;">
+<div class="fluid-container" >
 <div class="mainContainer">
+    <a id="viaOral"></a>
 <h3>Via Oral</h3>
 <p>Consiste em oferecer o medicamento que será deglutido ou não com auxílio de líquidos.  Os fármacos orais são facilmente autoadministrados, e a toxicidade e/ou a dosagem excessiva podem ser neutralizadas com antídotos como o carvão ativado. As drogas administradas por esta via podem exercer efeito local no trato gastrointestinal ou ser absorvidas pela mucosa gastrointestinal, atingindo o sangue ou a linfa e exercendo efeitos sistêmicos <i>(WHALEN et al., 2016; SILVA, 2010).</i> 
 </p>
@@ -73,6 +166,7 @@
 </div>
 
 <div class="mainContainer">
+    <a id="viaSublingual"></a>
 <h3>Via Sublingual</h3>
 <p>Consiste em colocar o medicamento debaixo da língua e deixar que seja absorvido pela mucosa bucal. Permite a retenção do fármaco por tempo mais prolongado. Propicia uma rápida absorção de pequenas doses de alguns fármacos, devido à vasta vascularização sanguínea e a pouca espessura da mucosa sublingual, permitindo a absorção direta na corrente sanguínea, sem a necessidade de passar primeiro pela parede intestinal e pelo fígado. No entanto, a maioria dos medicamentos não podem ser administrada dessa forma, porque eles podem ser absorvidos de maneira incompleta ou indevida <i>(LIMA, 2008; LE, 2020).</i> 
 </p>
@@ -88,8 +182,9 @@
 <br>
 </div>
 
-<div class="fluid-container" style="background-color: #d1cbc0;">
+<div class="fluid-container" >
     <div class="mainContainer">
+        <a id="viaGástrica"></a>
 <h3>Via Gástrica</h3>
 <p>
     É feita através da introdução do medicamento na sonda nasogástrica. É utilizada para pacientes inconscientes e pacientes impossibilitados de deglutir. 
@@ -113,6 +208,7 @@
 <br>
 
 <div class="mainContainer">
+    <a id="viaRetal"></a>
 <h3>Via Retal</h3>
 <p>
     É a introdução de medicamentos no reto, em forma de supositórios, clister medicamentoso, enteroclisma e lavagem. É utilizada quando o paciente não apresenta condições para deglutir fármacos ou em casos nos quais é necessário que o medicamento não tenha contato com o suco gástrico, ou quando o efeito é laxativo. 
@@ -139,8 +235,9 @@
 </ul>
 <br></div>
 
-<div class="fluid-container" style="background-color: #d1cbc0;">
+<div class="fluid-container" >
     <div class="mainContainer">
+        <a id="viaCutânea"></a>
 <h3> Via tópica ou cutânea</h3>
 <p>
     É a aplicação de medicamento por fricção na pele, geralmente são utilizados por seus efeitos locais e, assim, são mais comumente usados no tratamento de distúrbios da pele, unhas, glândulas sudoríparas e sebáceas e folículos pilosos. A presença de uma rede vascular eficiente na derme permite que as drogas que atravessam o estrato córneo e a epiderme sejam prontamente absorvidas, produzindo efeitos sistêmicos <i>(SILVA, 2010).</i> 
@@ -152,6 +249,7 @@
 <br>
 
 <div class="mainContainer">
+    <a id="viaNasal"></a>
 <h3>Via Nasal</h3>
 <p>
     Consiste em levar a mucosa nasal um medicamento que se apresenta na forma de solução (como os descongestionantes nasais). Uma vez absorvido, o medicamento entra na corrente sanguínea. Medicamentos administrados por essa via costumam atuar rapidamente <i>(SILVA, 2010).</i> 
@@ -159,8 +257,9 @@
 <br>
 </div>
 
-<div class="fluid-container" style="background-color: #d1cbc0;">
+<div class="fluid-container" >
     <div class="mainContainer">
+        <a id="viaOcular"></a>
 <h3>Via Ocular</h3>
 <p>
     É a aplicação de colírio ou pomada na conjuntiva ocular, os medicamentos usados são de aplicação local. 
@@ -181,6 +280,7 @@
 <br>
 
 <div class="mainContainer">
+    <a id="viaAuricular"></a>
     <h3>Via Auricular</h3>
 <p>
     Consiste em introduzir o medicamento no conduto auditivo externo (ouvido), os medicamentos administrados nesta via são apresentados na forma de solução otológica. 
@@ -200,7 +300,8 @@
 <br>
 </div>
 
-<div class="fluid-container" style="background-color: #d1cbc0;">
+<div class="fluid-container" >
+    <a id="viaVaginal"></a>
     <div class="mainContainer">
         <h3>Via Vaginal</h3>
         <p>
@@ -224,6 +325,7 @@
 </div></div>
 
 <div class="mainContainer">
+    <a id="viaParental"></a>
 <h3>Vias Parenterais
 </h3>
 <p>
@@ -239,12 +341,13 @@
 </figure>
 <p><b>As vias parenterais são: </b></p>
 <br>
-
+<a id="viaID"></a>
 <h4> 1. Via Intradérmica (ID) 
 </h4>
 <p>
     Consiste na administração onde a droga é injetada na derme. Esta via é bastante restrita e normalmente é utilizada para reações de hipersensibilidade (provas de PPD para tuberculose e Shick para difteria), verificar a sensibilidade de algumas alergias, fazer dessensibilização e autovacinas. Outro uso importante é a aplicação de vacina BCG (Bacillus Calmette e Guérin) contra a tuberculose. 
 </p>
+
 <p>
     <b>Observação:</b>
 </p>
@@ -263,12 +366,21 @@
     </li>
 </ul>
 <br>
-
+<a id="viaSC"></a>
 <h4>2. Via Subcutânea (SC)
 </h4>
 <p>
     É a administração de medicamentos no tecido subcutâneo. As soluções são absorvidas lentamente, pois a absorção se faz através dos capilares. É indicada principalmente na administração de vacinas, anticoagulantes e hipoglicemiantes. 
 </p>
+
+<figure>
+    <img src="./images/image33.png" width="30%" alt="">
+    <figcaption>
+        Injeção subcutânea.
+        Fonte: Orientação do uso de Anticoagulantes – INTO         
+    </figcaption>
+</figure>
+
 <p>
     <b>Observação:</b>
 </p>
@@ -291,11 +403,13 @@
 </ul>
 <br>
 
+<a id="viaIM"></a>
 <h4>3. Via Intramuscular (IM)</h4>
 <p>
     É a administração do medicamento no músculo, geralmente os músculos de escolha são o deltoide, glúteo e o vasto lateral da coxa. Nesta via a absorção é mais rápida, comparando a via oral. É indicada para pacientes inconscientes, adequada para volumes moderados (até 5ml), menor custo comparado a via endovenosa e tem facilidade de visualização e acesso ao músculo. Porém pode haver lesões musculares e nervosas pela aplicação de substâncias irritantes, inflamação e infecção, hematomas e dor. 
 </p>
 
+<a id="viaDeltoide"></a>
 <h4> <i>Deltoide: </i> 
 </h4>
 <figure>
@@ -335,6 +449,7 @@
 </div>
 <br>
 
+<a id="viaDorso"></a>
 <h4> <i>Dorso Glútea:</i>  </h4>
 <figure>
     <img src="./imgs/dorseoGlueto.PNG" width="50%" alt="">
@@ -372,7 +487,7 @@
     </table>
     </div>
 <br>
-
+<a id="viaVentro"></a>
 <h4 style="float: left;"> <i>Ventroglútea:</i>  </h4>
 <figure>
     <img src="./imgs/ventrogluteo.PNG" width="40%" alt="">
@@ -449,6 +564,7 @@
         </div>
     <br>
 
+    <a id="viaIMResumo"></a>
 <h4>4. Resumo das regiões utilizadas para injeção IM</h4>
 <br>
 <div class="tabela">
@@ -494,15 +610,100 @@
             </ul>
         </td>
     </tr>
+
+    <tr>
+        <th>VENTRO- GLÚTEA</th>
+        <td>QUALQUER IDADE.</td>
+        <td>QUALQUER IDADE.</td>
+        <td>Na aplicação angulação da agulha deve ser dirigida ligeiramente à crista ilíaca</td>
+        <td>Não apresenta contraindicações. É bastante segura.</td>
+    </tr>
+    
+    <tr>
+        <th>ANTERO- LATERAL DA COXA</th>
+        <td>
+            <ul style="list-style-type: square;">
+                <li>Lactentes e crianças (29 dias – 10 anos.</li>
+                <li>Adolescentes.</li>
+            </ul>
+        </td>
+        <td>Decúbito dorsal horizontal e sentado.</td>
+        <td>Angulação de 45 a 60º, em direção podálica.</td>
+        <td>Utilização em recém-nascidos (0 – 28 dias).</td>
+    </tr>
 </table>
 </div>
+
+<br><br>
+<a id="viaEndovenosa"></a>
+<h4>5. Via Endovenosa (EV)
+</h4>
+<p>
+    Esta via permite um efeito rápido e um grau de controle máximo sobre
+ a quantidade de fármaco administrada. Quando injetada em bólus, toda a dose de fármaco é administrada na circulação sistêmica quase que imediatamente. Se for administrado com infusão EV, o fármaco é infundido em um período de tempo maior, resultando em um pico de concentração plasmática mais baixo e em aumento da duração do nível do fármaco circulante. <i> (WHALE et al., 2016).</i>
+</p>
+
+<p>
+    É uma via onde somente profissional treinado pode acessar, a mesma deve ser manipulada com muito cuidado, pois há chances de infecção no local, podendo piorar o quadro do paciente, além dos efeitos serem de difícil reversão e ter a possibilidade de dor e se tornar incômodo quando necessária a aplicação por inúmeras vezes. 
+</p>
+
+<p><b>Observação: </b></p>
+<ul>
+    <li>Sempre que for fazer uma punção, não se esqueça de colocar as luvas de procedimento para a sua proteção. Não pense que você poderá perder a sensibilidade, atrapalhando assim o procedimento. É apenas uma questão de costume;</li>
+    <li>Ao escolher a veia para a punção, utilize sempre a de maior calibre. Isto ajudará a evitar a irritação vascular;
+    </li>
+    <li>Capriche na fixação, quando esta for necessária. Isto evitará novas punções e consequentemente, maiores transtornos ao paciente, já traumatizado com a hospitalização. No caso d puncionar uma criança, procure imobiliza-la bem, pois quanto mais ela se movimentar, maior o risco de novas punções; 
+    </li>
+    <li>A observação do local da punção deve ser rigorosa! O extravasamento intravenoso (infiltração) para o tecido adjacente poderá trazer sérias complicações, além da dor. Portanto, cuidado! Quando a infiltração for inevitável, procure colocar compressas quentes, ou aplique bolsa de água quente no local;
+    </li>
+    <li>
+        Não esqueça de registrar no prontuário toda vez que fizer uma nova punção. Procure fazer o rodízio do local;
+    </li>
+    <li>Evite fazer associação de medicamentos a serem administrados por via endovenosa. Podem ocorrer reações químicas com efeitos não desejados;</li>
+    <li>Se estiverem disponíveis os curativos transparentes para fazer a fixação, dê preferência a eles, pois a visualização de intercorrências será facilmente detectada.
+    </li>
+</ul>
+<br><br>
+<a id="viaEscolhas"></a>
+<h4>6. Região de Escolha para punção endovenosa: </h4>
+<div class="tabela">
+<table>
+    <tr>
+        <th>CRIANÇAS E ADULTOS </th>
+        <td>Dorso da mão, antebraço e braço.</td>
+    </tr>
+    <tr>
+        <th>BEBÊS</th>
+        <td>Avaliar criteriosamente e promover adequada fixação.
+
+        </td>
+    </tr>
+    <tr>
+        <th>COLETA DE SANGUE E ADMINISTRAÇÃO DE DOSAGEM ÚNICA
+
+        </th>
+        <td>Veia cefálica ou basílica próximo a fossa anticubital.
+
+        </td>
+    </tr>
+    <tr>
+        <th>VIAS DE ÚLTIMA ESCOLHA
+
+        </th>
+        <td>Membros inferiores
+            <i>*Há maior risco de estagnação do medicamento na circulação periférica, que poderia provocar formação de coágulos, causando trombos e flebites. É totalmente contraindicada para pacientes com lesão neuropatológicas.</i> 
+            </td>
+    </tr>
+</table>
+</div>
+
+<br><br></br>
 
 </div>
 
 
 
 </main>
-
     <footer class="fluid-container p-4">
         <div class="row">
             <div class="col-md-1"></div>
@@ -543,6 +744,7 @@ Elaborar um guia de bolso de enfermagem, que auxiliará o estudante e trará mai
         </div>
     </footer>
   
-
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </body>
 </html>
