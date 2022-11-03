@@ -128,6 +128,11 @@ footer {
     justify-content: center;
 }
 
+.footer-final{
+    margin-left: 15%;
+    text-align: justify;
+}
+
 @media screen and (max-width: 780px){
 
     .titulo{
@@ -147,12 +152,38 @@ footer {
     }
     
     ul, li{
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
 
     table, tr, th, td{
         font-size: 1.0em;
     }
+
+    figcaption{
+        font-size: 0.7em;
+    }
+
+    .footer-final{
+        text-align: justify;
+        margin-left: 1%;
+        font-size: 0.8em
+    }
+
+    #footer-img{
+        width: 13rem;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-title{
+        font-size: 0.8em;
+    }
+
+    footer{
+        font-size: 1.3em;
+    }
+   
 
 }
 
