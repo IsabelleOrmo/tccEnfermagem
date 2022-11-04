@@ -28,6 +28,8 @@ padding-bottom: 2px;
 .titulo{
     font-family: 'Poppins', sans-serif;
     font-size: 3.0em;
+    margin-top: 4%;
+    margin-bottom: 4%;
     text-align: center;
     color: hsl(0, 0%, 100%);
     -webkit-text-stroke: 1px rgb(0, 0, 0);
@@ -39,7 +41,6 @@ padding-bottom: 2px;
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: auto;
     padding-top: 0%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -265,6 +266,13 @@ footer {
 
     .pageContainer{
         height: 20%;
+    }
+
+    .titulo{
+        margin-top: 2%;
+        margin-bottom: 2%;
+        color: #942222;
+        -webkit-text-stroke: 1px solid #942222;
     }
 
     tr, td, th, ul, li{
