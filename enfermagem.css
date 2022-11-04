@@ -31,8 +31,8 @@ padding-bottom: 2px;
     margin-top: 4%;
     margin-bottom: 4%;
     text-align: center;
-    color: hsl(0, 0%, 100%);
-    -webkit-text-stroke: 1px rgb(0, 0, 0);
+    color: hsl(0, 71%, 22%);
+    
 }
 
 .pageContainer{
@@ -272,11 +272,11 @@ footer {
         margin-top: 2%;
         margin-bottom: 2%;
         color: #942222;
-        -webkit-text-stroke: 1px solid #942222;
+        
     }
 
-    tr, td, th, ul, li{
-        font-size: 1.0em
+    tr, td, th, ul, li, p{
+        font-size: 1.2em
     }
 
     tr, td, th{
