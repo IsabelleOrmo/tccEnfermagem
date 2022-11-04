@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="./enfermagem.css">
+    <link rel="shortcut icon" href="./favicon/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Vacinação</title>
+
+<style>
+    
+    th, tr,td{
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+@media (min-width: 300px) and (max-width: 780px){
+    th, tr, td{
+        padding: 1px;
+        font-size: 0.8em;
+    }
+
+
+}
+
+</style>
+
+</head>
+<body>
+<!--NavdoSite-->
+    <div class="fluid-container navbarContainer">
+        <a class="navbar-brand" href="./index.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="4rem" fill="#942222" class="bi bi-house-heart" viewBox="0 0 16 16">
+              <path d="M8 6.982C9.664 5.309 13.825 8.236 8 12 2.175 8.236 6.336 5.309 8 6.982Z"/>
+              <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.707L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.646a.5.5 0 0 0 .708-.707L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.707 1.5ZM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5 5 5Z"/>
+            </svg>
+        </a>
+      </div>
+<!--NavdoSite-->
+<!--Titulo-->
+<div class="fluid-container pageContainer">
+<div class="titulo"> <br> VACINAÇÃO <br> <br></div>
+</div>
+<!--Titulo-->
+
+<!--Page-->
+<div class="mainContainer">
+<h3> Calendário de vacinação 2022. <i>(Sujeito à mudanças).</i>  </h3>
+<div class="tabela" id="customers">
+<table>
+<tr>
+    <th>Idade</th>
+    <th>Vacina</th>
+    <th>Dose</th>
+    <th>Quantidade</th>
+    <th>Local</th>
+    <th>Via</th>
+    <th>Grau</th>
+    <th>Agulha</th>
+</tr>
+
+<tr>
+    <td>Ao nascer</td>
+    <td>BCG
+        <br>
+        Hepatite B
+        </td>
+    <td>Única
+        1ª dose
+        </td>
+    <td>1 UI <br>
+        0,5 ml
+        </td>
+    <td>DD
+        <br>
+        VLCD
+        </td>
+    <td>ID <br>
+        IM
+        </td>
+    <td>10° <br>
+        45°
+        </td>
+    <td>13 x 4,5 <br>
+        20 x 5,5
+        </td>
+</tr>
+
+<tr>
+    <td>2 meses</td>
+    <td>Rotavírus <br>
+        VIP<br>
+        Penta<br>
+        Pneumo 10
+        </td>
+    <td>1ª dose<br>
+        1ª dose<br>
+        1ª dose<br>
+        1ª dose
+        </td>
+        <td>1ml<br>
+            0,5ml<br>
+            0,5ml<br>
+            0,5ml
+            </td>
+            <td>
+                xxxxxxx<br>
+VLCD<br>
+VLCE<br>
+VLCD
+
+            </td>
+
+    <td>
+        VO <br>
+IM <br>
+IM <br>
+IM
+
+    </td>
+
+    <td>
+        xxxxxxx <br>
+45° <br>
+45° <br>
+45° 
+
+    </td>
+
+    <td>
+        xxxxxxx <br>
+20 x 5,5 <br>
+20 x 5,5 <br>
+20 x 5,5 
+
+    </td>
+</tr>
+
+
+<tr>
+    <td>3 meses</td>
+    <td>Meningo C</td>
+    <td>1ª dose</td>
+    <td>0,5ml</td>
+    <td>VLCE</td>
+    <td>IM</td>
+    <td>45°</td>
+    <td>20 x 5,5</td>
+</tr>
+
+<tr>
+    <td>4 meses</td>
+    <td>
+        Rotavírus <br>
+VIP <br>
+Penta<br>
+Pneumo 10
+
+    </td>
+    <td>2ª dose<br>
+        2ª dose<br>
+        2ª dose<br>
+        2ª dose
+        </td>
+    <td>1ml<br>
+        0,5ml<br>
+        0,5ml<br>
+        0,5m
+        </td>
+    <td>xxxxxxx<br>
+        VLCD<br>
+        VLCE<br>
+        VLCD
+        </td>
+    <td>VO<br>
+        IM<br>
+        IM<br>
+        IM
+        </td>
+    <td>xxxxxxx<br>
+        45<br>
+        45<br>
+        45
+        </td>
+    <td>xxxxxxx<br>
+        20 x 5,5<br>
+        20 x 5,5<br>
+        20 x 5,5
+        </td>
+</tr>
+
+<tr>
+    <td>5 meses
+
+    </td>
+    <td>Meningo C</td>
+    <td>2ª dose</td>
+    <td>0,5ml
+
+    </td>
+    <td>VLCE</td>
+    <td>IM</td>
+    <td>45°</td>
+    <td>20 x 5,5</td>
+</tr>
+
+<tr>
+    <td>6 meses</td>
+    <td>VOP <br>
+        Penta
+        </td>
+    <td>3ª dose<br>
+        3ª dose
+        </td>
+    <td>2 gotas<br>
+        0,5ml
+        </td>
+    <td>xxxxxxx<br>
+        VLCE
+        </td>
+    <td>
+        VO<br>
+        IM
+        </td>
+    <td>xxxxxxx<br>
+        45°
+        </td>
+    <td>xxxxxxx<br>
+        20 x 5,5
+        </td>
+</tr>
+
+<tr>
+    <td>9 meses
+
+    </td>
+    <td>Febre amarela
+
+    </td>
+    <td>Dose única
+
+    </td>
+    <td>0,5ml</td>
+    <td>DE</td>
+    <td>SC</td>
+    <td>90°</td>
+    <td>13 x 4,5</td>
+</tr>
+
+<tr>
+    <td>12 meses</td>
+    <td>SCR<br>
+        Meningo C<br>
+        Pneumo 10
+        </td>
+    <td>1ª dose<br>
+        Reforço<br>
+        3ª dose
+        </td>
+    <td>0,5ml<br>
+        0,5ml<br>
+        0,5ml
+        </td>
+    <td>DE<br>
+        VLCE<br>
+        VLCD
+        </td>
+    <td>SC<br>
+        IM<br>
+        IM
+        
+        </td>
+    <td>90°<br>
+        45°<br>
+        45°
+        </td>
+    <td>13 x 4,5 <br>
+        20 x 5,5<br>
+        20 x 5,5
+        </td>
+</tr>
+
+<tr>
+    <td>15 meses</td>
+    <td>DTP<br>
+        VOP<br>
+        Hepatite A<br>
+        SCR + Varicela
+        </td>
+    <td>1° ref<br>
+        1° ref<br>
+        Única<br>
+        Única
+        
+        </td>
+    <td>0,5ml<br>
+        2 gotas<br>
+        <br>
+        0,5ml
+        </td>
+    <td>VCLE<br>
+        xxxxxxx<br>
+        <br>
+        DE
+        
+        </td>
+    <td>IM<br>
+        VO<br>
+        <br>
+        SC
+        
+        </td>
+    <td>90°<br>
+        xxxxxxx<br>
+        <br>
+        90°
+        </td>
+    <td>25 x 7 <br>
+        xxxxxxx<br>
+        <br>
+        13 x 4,5
+        </td>
+</tr>
+
+<tr>
+    <td>4 anos</td>
+    <td>DTP<br>
+        VOP
+        
+        </td>
+    <td>2° ref<br>
+        2° ref
+        
+        </td>
+    <td>0,5ml<br>
+        2 gotas
+        </td>
+    <td>glúteo<br>
+        xxxxxxx
+        
+        </td>
+    <td>IM<br>
+        VO
+        
+        </td>
+    <td>90°<br>
+        xxxxxxx
+        </td>
+    <td>25 x 7 <br>
+        xxxxxxx
+        </td>
+</tr>
+
+<tr>
+    <td>9 a 13 anos (meninas)</td>
+    <td>HPV</td>
+    <td>1ª dose <br>
+        (2ª dose 6 meses após a primeira)
+        </td>
+    <td>0,5ml</td>
+    <td>DE</td>
+    <td>IM</td>
+    <td>90°</td>
+    <td>25 x 7</td>
+</tr>
+
+<tr>
+    <td>11 a 13 anos (meninos)</td>
+    <td>HPV</td>
+    <td>1ª dose
+        <br>
+        (2ª dose 6 meses após a primeira)
+        </td>
+    <td>0,5ml</td>
+    <td>DE</td>
+    <td>IM</td>
+    <td>90º</td>
+    <td>25 x 7</td>
+</tr>
+
+<tr>
+    <td>5 anos</td>
+    <td>DT</td>
+    <td>Reforço</td>
+    <td>0,5ml</td>
+    <td>glúteo</td>
+    <td>IM</td>
+    <td>90° </td>
+    <td>25 x 7</td>
+</tr>
+</table>
+
+</div>
+<br>
+<figcaption>(PRADA, 2022. Arquivo de Saúde Coletiva - Classroom)</figcaption>
+
+
+</div>
+
+    <footer class="fluid-container p-4">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-4 col-sm-12">
+                <span class="footer-title">GUIA DE BOLSO DO ESTAGIÁRIO DE ENFERMAGEM – “TÁ NO BOLSO”</span>
+                <br><br>
+                <figure id="footer-img">
+                    <img src="./favicon/android-chrome-192x192.png" alt="Logo">
+                </figure>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <div class="footer-list">
+                    <div class="footer-subtitle"></div>
+                    <ul>
+                        <li>Eloísa Moura dos Santos</li>
+                        <li>Kamilly Gabrieli Ferreira de Souza</li>
+                        <li>Keila Gabrielly de Araújo Mendes</li>
+                        <li>Letícia Amanda Borel</li>
+                        <li>Susana Beatriz Silva de Aguilar</li>
+                        <li>Thawany Carolina Rodrigues dos Santos</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-12 footer-obj">
+                <div class="footer-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="3rem" fill="currentColor"
+                        class="bi bi-bag-heart-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M11.5 4v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5ZM8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1Zm0 6.993c1.664-1.711 5.825 1.283 0 5.132-5.825-3.85-1.664-6.843 0-5.132Z" />
+                    </svg>
+                </div>
+                <br>
+            <div class="footer-final"> 
+Elaborar um guia de bolso de enfermagem, que auxiliará o estudante e trará mais confiança no momento da realização da técnica, evitando erros básicos no atendimento em saúde que podem levar a intercorrências e, possivelmente, expondo o paciente a riscos fatais. 
+</div>
+            </div>
+            <div class="col-md-1"></div>
+        </div>
+    </footer>
+</body>
+</html>
