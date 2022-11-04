@@ -135,6 +135,26 @@ footer {
     text-align: justify;
 }
 
+@media print {
+    .navbarContainer, footer, .breadcrumb{
+        display: none;
+    }
+
+    .pageContainer{
+        
+        height: 20%;
+    }
+
+    tr, td, th, ul, li{
+        font-size: 1.0em
+    }
+
+    tr, td, th{
+        border: 1px solid black;
+    }
+    
+}
+
 @media screen and (max-width: 780px){
 
     .titulo{
