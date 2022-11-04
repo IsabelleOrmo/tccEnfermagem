@@ -39,7 +39,7 @@ padding-bottom: 2px;
     background-repeat: no-repeat;
     background-size: cover;
     width: auto;
-    height: fit-content;
+    height: auto;
     padding-top: 0%;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
@@ -259,12 +259,11 @@ footer {
 }
 
 @media print {
-    .navbarContainer, footer, .breadcrumb{
+    .navbarContainer, footer, .breadcrumb, .pgBaixar{
         display: none;
     }
 
     .pageContainer{
-        
         height: 20%;
     }
 
